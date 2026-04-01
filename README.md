@@ -1,4 +1,3 @@
-````md
 # 🎯 YOLOv8 Instance Segmentation: Pen & Notebook Demo
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
@@ -238,5 +237,3 @@ Press:
 # 👩‍💻 Author
 
 Melike Çakmakoğlu
-
-````
