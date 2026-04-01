@@ -2,6 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.11.0%2Bcu128-red)
+![YOLO](https://img.shields.io/badge/YOLOv8n--seg-Model-blueviolet)
 ![Ultralytics](https://img.shields.io/badge/Ultralytics-8.4.33-00FFFF)
 ![Roboflow](https://img.shields.io/badge/Roboflow-Used-orange)
 ![CUDA](https://img.shields.io/badge/CUDA-12.8-green)
