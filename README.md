@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.11.0%2Bcu128-red)
 ![Ultralytics](https://img.shields.io/badge/Ultralytics-8.4.33-00FFFF)
+![Roboflow](https://img.shields.io/badge/Roboflow-Used-orange)
 ![CUDA](https://img.shields.io/badge/CUDA-12.8-green)
 ![Task](https://img.shields.io/badge/Task-Instance%20Segmentation-purple)
 
@@ -20,6 +21,18 @@ The project includes:
 - reproducible environment notes
 
 ---
+
+## 🏷️ Dataset Preparation
+
+The dataset images were manually annotated in **Roboflow** using the **Instance Segmentation** project type.
+
+Three object classes were defined:
+- `kalem1`
+- `kalem2`
+- `defter`
+
+For each visible object in an image, a **polygon-based mask annotation** was created.  
+After annotation, the dataset was exported in **YOLOv8 segmentation format** and used directly with the **Ultralytics** library for training, validation, and testing.
 
 # 📁 Project Structure
 
