@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['defter', 'kalem1', 'kalem2']
+
+roboflow:
+  workspace: melikes-workspace-fgr2j
+  project: kalem-defter-etiketleme
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/melikes-workspace-fgr2j/kalem-defter-etiketleme/dataset/2

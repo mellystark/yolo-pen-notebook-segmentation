@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# YOLO outputs
+runs/
+outputs/
+
+# Model artifacts (istersen trained modeli repo'da tutmayacaksan aç)
+# models/trained/*.pt
+
+# OS
+.DS_Store
+Thumbs.db
